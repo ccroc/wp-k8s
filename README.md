@@ -2,11 +2,14 @@
 ```sh
 minikube start --nodes 2 -p wordpress
 ```
-
+# dysuydi 
 # Get kubeconfig
 ```sh
 kubectl config view 
 ```
+
+
+
 
 # Create Persistent Volumes
 REF: https://github.com/IBM/Scalable-WordPress-deployment-on-Kubernetes/blob/master/local-volumes.yaml
